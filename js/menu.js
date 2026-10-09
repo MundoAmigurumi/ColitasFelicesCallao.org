@@ -45,7 +45,7 @@ function crearRedes() {
         { nombre: "TikTok",   imagen: "tiktok.png",   enlace: "https://www.tiktok.com/" },
         { nombre: "YouTube",  imagen: "youtube.png",  enlace: "https://www.youtube.com/" },
         { nombre: "Facebook", imagen: "facebook.png", enlace: "https://www.facebook.com/" },
-        { nombre: "WhatsApp", imagen: "whatsapp.png", enlace: "https://wa.me/51999999999" }
+        { nombre: "WhatsApp", imagen: "Whatsapp.png", enlace: "https://wa.me/51999999999" }
     ];
 
     let iconos = "";
