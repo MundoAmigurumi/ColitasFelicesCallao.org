@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos - Colitas Felices Callao</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/estructura.css" rel="stylesheet">
+    <link href="css/formularios.css" rel="stylesheet">
+    <link href="css/contactanos.css" rel="stylesheet">
+    <link href="css/adaptable.css" rel="stylesheet">
+</head>
+<body>
+<div class="cabecera">
+    <div id="menu"></div>
+    <div class="portada portada-chica portada-contacto">
+        <h1>Contáctanos</h1>
+        <p>Nos gustaría saber tu opinión</p>
+    </div>
+</div>
+
+<section class="seccion fondo-celeste">
+    <div class="contacto">
+        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!3m2!1ses-419!2spe!4v1789229222066!5m2!1ses-419!2spe!6m8!1m7!1sgfhFpknv09UdrZPstPL-lQ!2m2!1d-12.05779604292606!2d-77.10889340807411!3f182.90593067933682!4f-14.603973676744474!5f0.7820865974627469" allowfullscreen loading="lazy"></iframe>
+
+        <form class="formulario" action="https://formsubmit.co/sebasbebedeoro@gmail.com" method="POST">
+            <img src="imagenes/LOGITO.png" class="foto-usuario" alt="Logo">
+            <h2>Formulario de contacto</h2>
+            <p class="centrado">¿Quieres ayudar, adoptar o contarnos tu opinión? Escríbenos.</p>
+            <input type="hidden" name="_template" value="table">
+
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" name="Nombre" required>
+
+            <label for="correo">Correo</label>
+            <input type="email" id="correo" name="Correo" placeholder="Ingresa tu correo" required>
+
+            <label for="telefono">Teléfono</label>
+            <input type="text" id="telefono" name="Telefono" placeholder="Ingresa tu número" required>
+
+            <label for="asunto">Asunto</label>
+            <input type="text" id="asunto" name="Asunto" placeholder="Ayudar, adoptar, opinión..." required>
+
+            <label for="mensaje">Comentario</label>
+            <textarea id="mensaje" name="Mensaje" required></textarea>
+
+            <div class="acepto">
+                <input type="checkbox" id="terminos" required>
+                <label for="terminos">Acepto los términos y condiciones</label>
+            </div>
+            <button type="submit" class="boton">Enviar</button>
+        </form>
+    </div>
+</section>
+
+<div class="pie" id="pie">
+    <p><strong>Una mascota no es solo compañía, es parte de la familia.</strong>
+    Cuidemos, valoremos y protejamos a quienes siempre están a nuestro lado. 🐾❤️</p>
+</div>
+<script src="js/menu.js"></script>
+</body>
+</html>
