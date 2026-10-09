@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-image: url("../imagenes/fondo_iniciosesion.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.banner {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+                url("../imagenes/banner.png");
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+
+.logo {
+    width: 170px;
+    height: auto;
+}
+
+.espacio-central-banner {
+    height: 0;
+}
+
+.navegacion-barra {
+    margin-top: -40px;
+}
+
+
+.navegacion-barra ul {
+    display: flex;
+    gap: 20px;
+}
+
+
+.navegacion-barra ul li a {
+    font-size: 22px;
+    color: rgb(139, 11, 43);
+    font-weight: 600;
+    padding: 10px 15px;
+}
+
+
+.navegacion-barra ul li a:hover {
+    color: goldenrod;
+}
+
+
+.contenido {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* Diseño y tamaño del formulario */
+.formulario {
+    width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #F5E6CC;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px gray;
+}
+
+.formulario h1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(139, 11, 43);
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px gray;
+}
+
+.formulario > i {
+    display: block;
+    text-align: center;
+    font-size: 60px;
+    color: rgb(139, 11, 43);
+    margin-bottom: 20px;
+}
+
+.formulario label {
+    display: block;
+    color: rgb(139, 11, 43);
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+
+/* Diseño de los campos del formulario */
+.formulario input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/* Cambia el borde cuando se selecciona un campo */
+.formulario input:focus {
+    outline: none;
+    border-color: goldenrod;
+}
+
+.formulario button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(139, 11, 43);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+/* Cambia el color del botón cuando pasa el mouse */
+.formulario button:hover {
+    background-color: goldenrod;
+}
+
+.formulario p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* Resalta el enlace para registrarse */
+.formulario p a {
+    color: rgb(139, 11, 43);
+    font-weight: 600;
+}
+
+
+/* Cambia el color del enlace cuando pasamos el mouse */
+.formulario p a:hover {
+    color: goldenrod;
+}
+
+
+.pie-pagina {
+    padding: 20px;
+    background-color: #333;
+    color: beige;
+    margin: 0 auto;
+}
